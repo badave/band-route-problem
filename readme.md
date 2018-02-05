@@ -28,3 +28,24 @@ If you have questions on the challenge, please contact Jared Sartin: jared@leftf
 # Candidate Notes:
 
 ### Fill in comments, external tool usage, and time tracking
+
+External tools - react, mobx, mobx-react
+
+Uses a genetic algo.  See containers/Map for the component that renders the map and calculates the paths.
+
+First it calculates the distances of all the points.
+
+Next it draws all the points on an HTML canvas.
+
+Then it uses a genetic algorithm to start with random parents (any path randomly chosen).  Those parents have children,
+the shortest of those children are used for the next generation and so on.  Iterations and population can be changed from
+Map.js.
+
+Lastly, it renders the path on the canvas.
+
+Next step would be to make it animate and configurable from the web page.
+
+To run the app, npm install and then npm start. Should open localhost:3000 automatically.
+
+There are some screenshots in the screenshot directory.
+
