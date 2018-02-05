@@ -49,3 +49,4 @@ To run the app, npm install and then npm start. Should open localhost:3000 autom
 
 There are some screenshots in the screenshot directory.
 
+This took approximately 4 hours.
